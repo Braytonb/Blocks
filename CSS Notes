@@ -1,0 +1,46 @@
+<ul style="list-style-type:circle">
+      <li>Coffee</li>
+      <li>Tea</li>
+      <li>Milk</li>
+<!-- Inline style ((BAD PRACTICE)) -->
+
+#goodgoat {
+   border: 10px;
+}
+
+#baaaaaaahdgoat {
+   border: 1px;
+}
+.goat {
+    width: 500px;
+}
+img {
+    width: 500px;
+}
+<img  id='goodgoat' class='goat' src='goat1.png'>
+<img  id='baaaaaaahdgoat' class='goat' src='goat2.png'>
+
+
+.goat {
+     width: 20px;
+}
+
+.goat {
+    width: 20%;
+}
+<!-- First one defines 20 pixel width. Second one is responsive design AKA, 20% width of total default width (mobile vs. television screen). % more common! -->
+
+p {
+    background-color: blue;
+  }
+  div {
+    background-image: url("cherries.png");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+<!-- Adjusts background of paragraph to particular properties -->
+
+<a href="www.google.com"><h1>Google</h1></a> NOOOOOOOOOOOO
+<h1><a href="www.google.com">Google</a></h1> Yes
+<!-- Order of elements, 1st is block inside of inline. 2nd is inline inside block element. -->
